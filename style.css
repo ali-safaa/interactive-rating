@@ -1,0 +1,145 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: "Overpass", sans-serif;
+}
+
+body {
+     background-color: hsl(216, 12%, 8%);
+}
+
+.container-rating {
+     display: grid;
+     align-items: center;
+     background-color: hsl(213, 19%, 18%);
+     width: fit-content;
+     border-radius: 20px;
+     justify-content: center;
+     margin: 0 auto;
+     padding: 0 40px;
+     margin-top: 140px;
+}
+
+.container-thankYou {
+     display: grid;
+     align-items: center;
+     background-color: hsl(213, 19%, 18%);
+     width: fit-content;
+     border-radius: 20px;
+     justify-content: center;
+     margin: 0 auto;
+     padding: 0 40px;
+     margin-top: 140px;
+     display: none;
+}
+
+.container-thankYou > svg {
+     margin: 30px auto;
+}
+.container-rating > svg {
+     margin-right: 20px;
+     margin-top: 30px;
+     background-color: #303641;
+     padding-left: 12px;
+     padding-top: 10px;
+     border-radius: 30px;
+     font-weight: 600;
+     animation-duration: 5s;
+     cursor: pointer;
+}
+
+h2 {
+     color: white;
+     font-weight: 700;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+.container-thankYou p {
+     width: 350px;
+     font-weight: 500;
+     line-height: 1.5;
+     color: hsl(217, 12%, 63%);
+     text-align: center;
+     margin: 20px 0;
+     padding: 20px 0;
+}
+p {
+     width: 400px;
+     font-weight: 500;
+     line-height: 1.5;
+     color: hsl(217, 12%, 63%);
+     text-align: center;
+}
+
+h5 {
+     font-weight: 500;
+     color: hsl(108, 38%, 49%);
+     margin: 0 auto;
+     margin-bottom: 20px;
+     background-color: hsl(132, 4%, 24%);
+     width: fit-content;
+     border-radius: 20px;
+     padding: 10px 20px;
+}
+
+.numbers {
+     display: flex;
+     align-items: center;
+     margin: 30px auto;
+}
+
+.numbers label {
+     margin: 0 auto;
+     margin-right: 20px;
+     background-color: #303641;
+     padding: 20px 25px;
+     border-radius: 30px;
+     font-weight: 600;
+     color: hsl(217, 12%, 63%);
+     animation-duration: 5s;
+     cursor: pointer;
+}
+
+input {
+     display: none;
+}
+
+input[type="radio"]:checked + label {
+     background-color: white;
+     color: black;
+}
+
+button {
+     width: fit-content;
+     border: none;
+     background-color: hsl(25, 97%, 53%);
+     padding: 10px 120px;
+     border-radius: 20px;
+     color: black;
+     font-weight: 700;
+     margin: 0 auto;
+     margin-bottom: 30px;
+     animation-duration: 5s;
+     cursor: pointer;
+}
+
+button:hover {
+     background-color: white;
+}
+
+.numbers label:hover {
+     background-color: hsl(25, 97%, 53%);
+     color: black;
+}
+
+.attribution {
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     margin-top: 15px;
+}
+
+.attribution a {
+     color: hsl(217, 12%, 63%);
+}
